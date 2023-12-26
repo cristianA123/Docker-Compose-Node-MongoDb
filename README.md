@@ -26,7 +26,7 @@ Este proyecto utiliza Node.js, MongoDB y Docker Compose para levantar una API.
 4. Ejecuta el siguiente comando para levantar los contenedores de Docker:
 
     ```bash
-    docker-compose up
+    docker-compose up --build
     ```
 
 5. La API estará disponible en `http://localhost:4000/api/mode`. Puedes probarla utilizando herramientas como Postman o cURL.
