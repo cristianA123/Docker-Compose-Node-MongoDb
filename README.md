@@ -31,3 +31,11 @@ Este proyecto utiliza Node.js, MongoDB y Docker Compose para levantar una API.
 
 5. La API estará disponible en `http://localhost:4000/api/mode`. Puedes probarla utilizando herramientas como Postman o cURL.
 
+6. El Body del Post
+
+ ```bash
+    {
+        "s": "barfoothefoobarman",
+        "words": ["foo", "bar"]
+    }
+```
